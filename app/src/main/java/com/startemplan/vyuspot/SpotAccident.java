@@ -362,7 +362,6 @@ public class SpotAccident extends Activity {
 
 
 
-
               /*  String tweetUrl = String.format("https://www.facebook.com/sharer/sharer.php?u=",
                         urlEncode("Accident@"),
                         urlEncode(share));
