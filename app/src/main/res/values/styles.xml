@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="AppTheme" parent="Base.V7.Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:panelBackground">@color/sad</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight & colorSwitchThumbNormal. -->
+
+
+    </style>
+
+    <style name="CustomTheme" parent="android:Theme">
+        <!-- Panel attributes -->
+        <!-- <item name="android:panelBackground">@drawable/menu_bg</item> -->
+        <item name="android:panelFullBackground">@drawable/menu_full_bg</item>
+        <!--    <item name="android:panelColorBackground">#FF0000</item> -->
+    </style>
+
+    <!-- <drawable name="menu_bg">#DDDAAA</drawable> -->
+    <drawable name="menu_full_bg">#000FFF</drawable>
+
+    <style name="YourRippleDrawableStyle"
+        parent="Material.Drawable.Ripple.Touch.MatchView"/>
+
+
+
+
+</resources>
